@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sejarah Masuknya Islam di Indonesia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .animate-slide-in {
+            animation: slideIn 1s ease-out;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 text-gray-900 ">
+    <header class="relative bg-cover bg-center text-white p-6 shadow-md" 
+        style="background-image: url('ybtfcptwt6burimlpknd.jpg');">
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+        <h1 class="relative text-3xl font-extrabold tracking-wide text-center uppercase animate-slide-in">
+            Sejarah Masuknya Islam di Indonesia
+        </h1>
+    </header>
+
+    <main class="max-w-4xl mx-auto p-4">
+        <div class="flex justify-center space-x-4 mb-6">
+            <button onclick="filterTheory('gujarat')"
+                class="relative bg-green-600 text-white font-semibold px-4 py-2 rounded-lg shadow border border-yellow-400 overflow-hidden transition-all duration-300 group hover:scale-105 active:scale-90">
+                <span
+                    class="absolute inset-0 bg-cover bg-center opacity-50 group-hover:opacity-100 transition-opacity duration-300"
+                    style="background-image: url('maulanamalikibrahim.png');"></span>
+                <span class="relative z-10">Teori Gujarat</span>
+            </button>
+            <button onclick="filterTheory('persia')"
+                class="relative bg-green-600 text-white font-semibold px-4 py-2 rounded-lg shadow border border-yellow-400 overflow-hidden transition-all duration-300 group hover:scale-105 active:scale-90">
+                <span
+                    class="absolute inset-0 bg-cover bg-center opacity-50 group-hover:opacity-100 transition-opacity duration-300"
+                    style="background-image: url('tabot.png');"></span>
+                <span class="relative z-10">Teori Persia</span>
+            </button>
+            <button onclick="filterTheory('mekkah')"
+                class="relative bg-green-600 text-white font-semibold px-4 py-2 rounded-lg shadow border border-yellow-400 overflow-hidden transition-all duration-300 group hover:scale-105 active:scale-90">
+                <span
+                    class="absolute inset-0 bg-cover bg-center opacity-50 group-hover:opacity-100 transition-opacity duration-300"
+                    style="background-image: url('almalik.jpg');"></span>
+                <span class="relative z-10">Teori Mekkah</span>
+            </button>
+            <button onclick="filterTheory('all')"
+                class="relative bg-green-600 text-white font-semibold px-4 py-2 rounded-lg shadow border border-yellow-400 overflow-hidden transition-all duration-300 group hover:scale-105 active:scale-90">
+                <span
+                    class="absolute inset-0 bg-cover bg-center opacity-50 group-hover:opacity-100 transition-opacity duration-300"
+                    style="background-image: url('ybtfcptwt6burimlpknd.jpg');"></span>
+                <span class="relative z-10">Tampilkan Semua</span>
+            </button>
+        </div>
+
+
+        <article id="gujarat" class="bg-white p-6 rounded shadow mb-6 theory animate-slide-in">
+            <h2 class="text-xl font-bold mb-2">Teori Gujarat</h2>
+            <p>
+                Teori Gujarat adalah salah satu pandangan tentang masuknya Islam ke Indonesia pada abad ke-13 M. Bunyi
+                teori ini bahwa agama Islam pertama kali diperkenalkan di wilayah Indonesia oleh para pedagang dari
+                Gujarat, India. Teori ini dikenal karena dipopulerkan oleh Snouck Hurgronje dan J. Pijnapel.
+            </p>
+            <div class="grid grid-cols-3 gap-4 mt-4">
+                <div class="text-center">
+                    <img src="maulanamalikibrahim.png" alt="Bukti 1 Gujarat"
+                        class="hover:scale-105 transition duration-300 active:scale-90 cursor-pointer">
+                    <p class="mt-2 text-sm text-gray-600 mr-28">Makam Maulana Malik Ibrahim</p>
+                </div>
+                <div class="text-center">
+                    <img src="sultanmalikassaleh.png" alt="Bukti 2 Gujarat"
+                        class="hover:scale-105 transition duration-300 active:scale-90 cursor-pointer">
+                    <p class="mt-2 text-sm text-gray-600 mr-28">Makam Sultan Malik As-Saleh</p>
+                </div>
+                <div class="text-center">
+                    <img src="marcopolo.png" alt="Bukti 3 Gujarat"
+                        class="hover:scale-105 transition duration-300 active:scale-90 cursor-pointer">
+                    <p class="mt-2 text-sm text-gray-600 mr-28">Catatan Marco Polo</p>
+                </div>
+            </div>
+        </article>
+
+        <article id="persia" class="bg-white p-6 rounded shadow mb-6 theory animate-slide-in">
+            <h2 class="text-xl font-bold mb-2">Teori Persia</h2>
+            <p>
+                Mengutip buku Api Sejarah Jilid 1 karya Ahmad Mansyur Suryanegara, teori Persia adalah salah satu teori
+                yang menjelaskan tentang asal-usul masuknya agama dan budaya Islam ke Nusantara. Isi dari teori Persia
+                adalah agama Islam masuk di Indonesia dibawa oleh pedagang Persia.
+            </p>
+            <div class="grid grid-cols-3 gap-4 mt-4">
+                <div class="text-center">
+                    <img src="tabot.png" alt="Bukti 1 Gujarat"
+                        class="hover:scale-105 transition duration-300 active:scale-90 cursor-pointer">
+                    <p class="mt-2 text-sm text-gray-600 mr-28">Tradisi Tabot</p>
+                </div>
+                <div class="text-center">
+                    <img src="jumadilqubro.png" alt="Bukti 2 Gujarat"
+                        class="hover:scale-105 transition duration-300 active:scale-90 cursor-pointer">
+                    <p class="mt-2 text-sm text-gray-600 mr-28">Tokoh Agama yang berasal dari Persia</p>
+                </div>
+                <div class="text-center">
+                    <img src="ornamen.png" alt="Bukti 3 Gujarat"
+                        class="hover:scale-105 transition duration-300 active:scale-90 cursor-pointer">
+                    <p class="mt-2 text-sm text-gray-600 mr-28">Ornamen Kaligrafi yang mirip dengan gaya kaligrafi
+                        Persia</p>
+                </div>
+            </div>
+        </article>
+
+        <article id="mekkah" class="bg-white p-6 rounded shadow mb-6 theory animate-slide-in">
+            <h2 class="text-xl font-bold mb-2">Teori Mekkah</h2>
+            <p>
+                Teori Mekkah adalah teori yang menyatakan bahwa agama Islam masuk ke Indonesia pada abad pertama Hijriah
+                atau abad ke-7 Masehi, dibawa oleh para pedagang Arab.
+            </p>
+            <div class="grid grid-cols-3 gap-4 mt-4">
+                <div class="text-center">
+                    <img src="almalik.jpg" alt="Bukti 1 Gujarat"
+                        class="hover:scale-105 transition duration-300 active:scale-90 cursor-pointer">
+                    <p class="mt-2 text-sm text-gray-600 mr-28">Gelar Al-Malik</p>
+                </div>
+                <div class="text-center">
+                    <img src="pasai.png" alt="Bukti 2 Gujarat"
+                        class="hover:scale-105 transition duration-300 active:scale-90 cursor-pointer">
+                    <p class="mt-2 text-sm text-gray-600 mr-28">Kerajaan Samudra Pasai</p>
+                </div>
+                <div class="text-center">
+                    <img src="catatan.jpg" alt="Bukti 3 Gujarat"
+                        class="hover:scale-105 transition duration-300 active:scale-90 cursor-pointer">
+                    <p class="mt-2 text-sm text-gray-600 mr-28">Catatan Al-Mas'udi</p>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer class="bg-green-800 text-yellow-300 p-6 text-center border-t border-green-600">
+        <p class="hover:text-white transition duration-300 animate-slide-in">
+            &copy; 2024 Zulfiqar Silmy Setiawan | X PPLG 2 Absen 36
+        </p>
+    </footer>
+
+    <script>
+        function filterTheory(theory) {
+            const articles = document.querySelectorAll('.theory');
+            articles.forEach(article => {
+                if (theory === 'all' || article.id === theory) {
+                    article.style.display = 'block';
+                } else {
+                    article.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
